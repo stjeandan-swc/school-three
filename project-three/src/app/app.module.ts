@@ -8,6 +8,8 @@ import { SideMenuComponent } from './side-menu/side-menu.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { InfoComponent } from './info/info.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HomeAndLivingComponent } from './home-and-living/home-and-living.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { InfoComponent } from './info/info.component';
     SideMenuComponent,
     BreadcrumbComponent,
     CategoriesComponent,
-    InfoComponent
+    InfoComponent,
+    NavbarComponent,
+    HomeAndLivingComponent
   ],
   imports: [
     BrowserModule,

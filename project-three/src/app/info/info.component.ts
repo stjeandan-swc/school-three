@@ -12,4 +12,12 @@ export class InfoComponent implements OnInit {
   ngOnInit() {
   }
 
+  openDropdown() {
+    const sortBy = document.getElementById('sortBy');
+    const sortMenu = document.getElementById('sortBy-content');
+
+    sortBy.classList.toggle('active');
+    sortMenu.classList.toggle('active');
+  }
+
 }

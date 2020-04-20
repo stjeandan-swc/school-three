@@ -1,22 +1,4 @@
-<div class="ui secondary menu">
-  <a class="item">{{ title }}</a>
-  <a class="item">Men</a>
-  <a class="item">Women</a>
-  <a class="item">Kids</a>
-  <a class="item">Home & Living</a>
-  <div class="right menu">
-    <div class="item">
-      <div class="ui icon input">
-        <input type="text" placeholder="Search">
-        <i class="search link icon"></i>
-      </div>
-      <app-drop-down></app-drop-down>
-      <div class="ui icon">
-        <i class="shopping cart icon"></i>
-      </div>
-    </div>
-  </div>
-</div>
+<app-navbar></app-navbar>
 <app-breadcrumb></app-breadcrumb>
 <div class="ui two column grid">
   <div class="row">
@@ -32,7 +14,7 @@
       <app-categories></app-categories>
     </div>
     <div class="twelve wide column">
-
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>

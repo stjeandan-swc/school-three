@@ -1,0 +1,26 @@
+div.ui.vertical.accordion.menu {
+  width: 75%;
+  box-shadow: none;
+  border-radius: 0px;
+  margin: 0px 1rem;
+  z-index: 5;
+}
+
+.content {
+  position: absolute;
+  top: 45px;
+  left: 0px;
+  width: 100%;
+  padding: 1rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3), -1px -1px 15px rgba(0, 0, 0, 0.3);
+  z-index: 5;
+}
+
+.ui.menu .ui.list>.item {
+  padding: 1rem 1rem;
+  z-index: 5;
+}
+
+.info-title {
+  margin: auto 0;
+}
