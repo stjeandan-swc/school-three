@@ -1,0 +1,8 @@
+div.item {
+  font-size: large;
+  font-weight: 600;
+}
+
+div.ui.list {
+  margin: 2rem 1.25rem;
+}
