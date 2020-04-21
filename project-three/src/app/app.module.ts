@@ -10,6 +10,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import { InfoComponent } from './info/info.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeAndLivingComponent } from './home-and-living/home-and-living.component';
+import { MensShoesComponent } from './mens-shoes/mens-shoes.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomeAndLivingComponent } from './home-and-living/home-and-living.compon
     CategoriesComponent,
     InfoComponent,
     NavbarComponent,
-    HomeAndLivingComponent
+    HomeAndLivingComponent,
+    MensShoesComponent
   ],
   imports: [
     BrowserModule,
