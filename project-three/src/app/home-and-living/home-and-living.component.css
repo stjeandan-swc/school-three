@@ -1,5 +1,8 @@
 img {
   width: 100%;
-
   height: auto;
+}
+
+div.ui.segment {
+  margin: 2rem 0px;
 }
