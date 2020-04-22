@@ -22,5 +22,7 @@ div.ui.vertical.accordion.menu {
 }
 
 .info-title {
+  font-size: xx-large;
+  font-weight: 00;
   margin: auto 0;
 }
