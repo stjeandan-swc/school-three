@@ -9,8 +9,7 @@ export class InfoComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   openDropdown() {
     const sortBy = document.getElementById('sortBy');

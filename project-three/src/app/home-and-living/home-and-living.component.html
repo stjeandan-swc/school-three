@@ -1,7 +1,7 @@
 <div class="ui stackable four column grid">
   <div *ngFor="let imagePath of imagePaths">
     <div class="ui segment">
-      <img src="{{ imagePath.name }}" />
+      <img [src]="imagePath.name" />
     </div>
   </div>
 </div>
