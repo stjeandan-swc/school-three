@@ -11,6 +11,8 @@ import { InfoComponent } from './info/info.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeAndLivingComponent } from './home-and-living/home-and-living.component';
 import { MensShoesComponent } from './mens-shoes/mens-shoes.component';
+import { WomensShoesComponent } from './womens-shoes/womens-shoes.component';
+import { KidsShoesComponent } from './kids-shoes/kids-shoes.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { MensShoesComponent } from './mens-shoes/mens-shoes.component';
     InfoComponent,
     NavbarComponent,
     HomeAndLivingComponent,
-    MensShoesComponent
+    MensShoesComponent,
+    WomensShoesComponent,
+    KidsShoesComponent
   ],
   imports: [
     BrowserModule,

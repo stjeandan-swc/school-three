@@ -1,0 +1,9 @@
+<div class="ui grid">
+  <div *ngFor="let imagePath of imagePaths">
+    <div class="sixteen wide mobile eight tablet four computer column">
+      <div class="ui segment">
+        <img src="{{ imagePath.name }}" />
+      </div>
+    </div>
+  </div>
+</div>
