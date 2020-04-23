@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -8,10 +8,21 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
 
   title = 'My Store';
+  currentWindowWidth: number;
+
+  @HostListener('window:resize')
+  onResize() {
+    this.currentWindowWidth = window.innerWidth;
+  }
 
   constructor() { }
 
   ngOnInit() {
+    this.currentWindowWidth = window.innerWidth;
+  }
+
+  openMenu() {
+
   }
 
 }

@@ -10,3 +10,33 @@ a.item {
 .ui.icon.input input {
   background-color: rgb(241, 237, 237);
 }
+
+.hamburger-icon-btn {
+  margin: 1rem 1rem;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 1px;
+  background-color: black;
+}
+
+.bar:nth-child(even) {
+  margin: 0.5rem 0px;
+}
+
+.title {
+  margin: 1rem auto;
+}
+
+a {
+  font-size: xx-large;
+  font-weight: 600;
+  color: black;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
