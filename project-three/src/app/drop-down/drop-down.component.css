@@ -15,6 +15,7 @@ div.ui.vertical.accordion.menu {
   padding: 1rem;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3), -1px -1px 15px rgba(0, 0, 0, 0.3);
   z-index: 10;
+  background-color: white;
 }
 
 .ui.menu .ui.list>.item {
