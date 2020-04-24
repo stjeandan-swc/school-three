@@ -1,4 +1,4 @@
-.menu {
+.menu, .mini-menu {
   height: 10vh;
 }
 
@@ -9,4 +9,65 @@ a.item {
 
 .ui.icon.input input {
   background-color: rgb(241, 237, 237);
+}
+
+.hamburger-icon-btn {
+  margin: 1rem 1rem;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 1px;
+  background-color: black;
+}
+
+.bar:nth-child(even) {
+  margin: 0.5rem 0px;
+}
+
+.title {
+  margin: 1rem auto;
+}
+
+.title a {
+  font-size: xx-large;
+  font-weight: 600;
+  color: black;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.side-nav {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translateY( -50%);
+  width: 30vw;
+  height: 50vh;
+  z-index: 10;
+  background-color: white;
+}
+
+.backdrop {
+  display: none;
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+}
+
+.show-element {
+  display: flex;
 }
