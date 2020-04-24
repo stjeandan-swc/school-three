@@ -8,6 +8,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
 export class NavbarComponent implements OnInit {
 
   title = 'My Store';
+  isOpen = false;
   currentWindowWidth: number;
 
   @HostListener('window:resize')
@@ -22,7 +23,19 @@ export class NavbarComponent implements OnInit {
   }
 
   openMenu() {
+    if (!this.isOpen) {
+      document.getElementById('side-nav').classList.toggle('show-element');
+      document.getElementById('backdrop').classList.toggle('show-element');
+      this.isOpen = true;
+    }
+  }
 
+  closeMenu() {
+    if (this.isOpen) {
+      document.getElementById('side-nav').classList.toggle('show-element');
+      document.getElementById('backdrop').classList.toggle('show-element');
+      this.isOpen = false;
+    }
   }
 
 }

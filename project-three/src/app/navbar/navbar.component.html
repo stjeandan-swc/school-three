@@ -18,7 +18,7 @@
   </div>
 </div>
 
-<div class="menu">
+<div class="mini-menu" *ngIf="currentWindowWidth < 960">
   <div class="row">
     <div class="hamburger-icon-btn" (click)="openMenu()">
       <div class="bar"></div>
@@ -28,5 +28,12 @@
     <div class="title">
       <a class="item" routerLink="home">{{ title }}</a>
     </div>
+  </div>
+  <div id="backdrop" class="backdrop" (click)="closeMenu()"></div>
+  <div id="side-nav" class="side-nav">
+    <a routerLink="mens" (click)="closeMenu()">Men</a>
+    <a routerLink="womens" (click)="closeMenu()">Women</a>
+    <a routerLink="kids" (click)="closeMenu()">Kids</a>
+    <a routerLink="home" (click)="closeMenu()">Home & Living</a>
   </div>
 </div>
